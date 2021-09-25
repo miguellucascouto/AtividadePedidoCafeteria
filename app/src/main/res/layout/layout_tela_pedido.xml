@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/NomeTela2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Olá Seu Nome"
+        android:textColor="#2196F3"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <Switch
+        android:id="@+id/OpcaoCappuccino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cappuccino"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <Switch
+        android:id="@+id/opcaoExpressoUltraForte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expresso Ultra Forte"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="495dp" />
+
+    <Switch
+        android:id="@+id/opcaoExpresso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expresso"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="184dp" />
+
+    <Switch
+        android:id="@+id/opcaoExpressoForte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expresso Forte"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="436dp" />
+
+    <Switch
+        android:id="@+id/opcaoAchocolatado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Achocolatado"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="373dp" />
+
+    <Switch
+        android:id="@+id/opcaoExpressoComLeite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expresso Com Leite"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="251dp" />
+
+    <Button
+        android:id="@+id/FecharPedido"
+        android:layout_width="185dp"
+        android:layout_height="56dp"
+        android:text="Fechar Pedido"
+        android:textSize="16sp"
+        app:backgroundTint="#4CAF50"
+        tools:layout_editor_absoluteX="215dp"
+        tools:layout_editor_absoluteY="570dp" />
+
+    <Button
+        android:id="@+id/CancelarPedido"
+        android:layout_width="185dp"
+        android:layout_height="56dp"
+        android:text="Cancelar "
+        android:textSize="20sp"
+        app:backgroundTint="#BCF44336"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="570dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
